@@ -30,7 +30,7 @@
     "react-icons": "^4.2.0",
     "react-modal-video": "^1.2.6",
     "react-scroll": "^1.8.2",
-    "react-slick": "^0.28.1",
+    "react-slick": "^0.30.0",
     "react-stickynode": "^3.0.5",
     "react-waypoint": "^9.0.3",
     "theme-ui": "^0.6.0",
