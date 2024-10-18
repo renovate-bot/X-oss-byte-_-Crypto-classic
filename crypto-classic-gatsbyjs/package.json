@@ -15,7 +15,7 @@
     "gatsby-plugin-react-helmet": "^4.1.0",
     "gatsby-plugin-robots-txt": "^1.5.5",
     "gatsby-plugin-sharp": "^5.0.0",
-    "gatsby-plugin-theme-ui": "^0.6.0",
+    "gatsby-plugin-theme-ui": "^0.17.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
@@ -33,7 +33,7 @@
     "react-slick": "^0.28.1",
     "react-stickynode": "^3.0.5",
     "react-waypoint": "^9.0.3",
-    "theme-ui": "^0.6.0",
+    "theme-ui": "^0.17.0",
     "typeface-archivo": "^1.1.13",
     "typeface-bree-serif": "^1.1.13",
     "typeface-dm-sans": "^1.1.13"
