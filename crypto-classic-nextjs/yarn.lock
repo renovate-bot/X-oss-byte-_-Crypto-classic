@@ -903,11 +903,6 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^3.6.5:
-  version "3.32.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.32.2.tgz#172fb5949ef468f93b4be7841af6ab1f21992db7"
-  integrity sha512-pxXSw1mYZPDGvTQqEc5vgIb83jGQKFGYWY76z4a7weZXUolw3G+OvpZqSRcfYOoOVUQJYEPsWeQK8pKEnUtWxQ==
-
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -1240,10 +1235,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eventemitter3@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
-  integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
+eventemitter3@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.1.tgz#53f5ffd0a492ac800721bb42c66b841de96423c4"
+  integrity sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==
 
 exec-buffer@^3.0.0:
   version "3.2.0"
@@ -2137,11 +2132,6 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
 
-lodash@^4.17.15:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
-
 logalot@^2.0.0, logalot@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/logalot/-/logalot-2.1.0.tgz#5f8e8c90d304edf12530951a5554abb8c5e3f552"
@@ -2877,16 +2867,15 @@ react-scroll@^1.8.2:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
-react-stickynode@^3.0.5:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/react-stickynode/-/react-stickynode-3.1.1.tgz#b9eaa3c4c11a1c4734b52ae1f3c82ab5bec675db"
-  integrity sha512-JzciWr01e2Ob9MU/brOZaLJTE/o02Ee67p6AWjvyC5BLHVPkeNRZqk0a46vWvNbqxFkXTYszStpiTWyarJIjjg==
+react-stickynode@^5.0.0:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/react-stickynode/-/react-stickynode-5.0.2.tgz#90be0871ae453188f2c9187f4c59a8092220ea12"
+  integrity sha512-aywk3qFTPu5VMKexra5VpDzQCRt3JkBk/Ft6SEzuXcafKz9sYal8QhY8Xfjt6BGmq2Teh90E/QcIfyzKFg9vuw==
   dependencies:
     classnames "^2.0.0"
-    core-js "^3.6.5"
     prop-types "^15.6.0"
     shallowequal "^1.0.0"
-    subscribe-ui-event "^2.0.6"
+    subscribe-ui-event "^3.0.0"
 
 react-transition-group@^2.2.1:
   version "2.9.0"
@@ -3363,13 +3352,12 @@ stylis@4.2.0:
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.2.0.tgz#79daee0208964c8fe695a42fcffcac633a211a51"
   integrity sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==
 
-subscribe-ui-event@^2.0.6:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/subscribe-ui-event/-/subscribe-ui-event-2.0.7.tgz#8d18b6339c35b25246a5335775573f0e5dc461f8"
-  integrity sha512-Acrtf9XXl6lpyHAWYeRD1xTPUQHDERfL4GHeNuYAtZMc4Z8Us2iDBP0Fn3xiRvkQ1FO+hx+qRLmPEwiZxp7FDQ==
+subscribe-ui-event@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/subscribe-ui-event/-/subscribe-ui-event-3.0.0.tgz#18f7c3e87a5007bc79550b04d9f0f596277c20e4"
+  integrity sha512-Rgop/8yYQjgK47HsPKSxGLJnL/n2ejtAl0PAW9Bvt1kt+pEDN9SB3RP5JVUPjjuYZoFcGb3MOFNIf06uIzrazg==
   dependencies:
-    eventemitter3 "^3.0.0"
-    lodash "^4.17.15"
+    eventemitter3 "^5.0.0"
     raf "^3.0.0"
 
 supports-color@^2.0.0:

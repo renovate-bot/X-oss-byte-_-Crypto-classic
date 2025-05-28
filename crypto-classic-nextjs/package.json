@@ -25,7 +25,7 @@
     "react-icons": "^4.2.0",
     "react-modal-video": "^1.2.6",
     "react-scroll": "^1.8.2",
-    "react-stickynode": "^3.0.5",
+    "react-stickynode": "^5.0.0",
     "react-waypoint": "^9.0.3",
     "theme-ui": "^0.6.1"
   },
