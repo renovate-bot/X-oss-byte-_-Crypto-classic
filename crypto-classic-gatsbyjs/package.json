@@ -39,7 +39,7 @@
     "typeface-dm-sans": "^1.1.13"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^3.0.0"
   },
   "keywords": [
     "gatsby"
