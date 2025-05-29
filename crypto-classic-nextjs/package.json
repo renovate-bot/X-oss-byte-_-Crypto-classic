@@ -10,8 +10,8 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@fontsource/archivo": "^4.2.2",
-    "@fontsource/dm-sans": "^4.2.2",
+    "@fontsource/archivo": "^5.0.0",
+    "@fontsource/dm-sans": "^5.0.0",
     "img-loader": "^3.0.2",
     "next": "12.1.0",
     "next-compose-plugins": "^2.2.0",
